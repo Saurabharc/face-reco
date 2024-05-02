@@ -1,0 +1,16 @@
+{
+  "name": "face-recognition-video",
+  "version": "1.0.0",
+  "description": "face-recognition-with-face.api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -L -e js,HTML",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saurabh Chaurasia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
